@@ -65,3 +65,39 @@ div button {
   color: #444343;
 }
 /* -------------------------------section3------------------------ */
+.section3-parent-div h1 {
+  text-align: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.section3-content-div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section3-subcontent-vertically-align {
+  text-align: center;
+}
+.section3-subcontent-vertically-align img {
+  width: 95px;
+  height: 95px;
+  margin-top: 50px;
+}
+.section3-subcontent-vertically-align h4 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.section3-subcontent-vertically-align p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  color: #737272;
+}
