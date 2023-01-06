@@ -1,7 +1,8 @@
 .section1-parent-div {
   width: 100%;
 }
-div button {
+div button,
+section4-btn {
   background-color: #ffffff;
   color: #005fac;
   padding: 21px 26px;
@@ -60,7 +61,6 @@ div button {
   font-size: 40px;
   color: #151414;
   margin-bottom: 24px;
-  
 }
 .section2-right-side p {
   margin-bottom: 16px;
@@ -103,4 +103,15 @@ div button {
   font-size: 25px;
   text-align: center;
   color: #737272;
+}
+/* --------------------------------------section4-------------------------------------- */
+.section4-content-div {
+  display: flex;
+  justify-content: center;
+  background-image: url(images/watch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gradient-up-content {
+  position: absolute;
 }
