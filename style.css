@@ -36,4 +36,26 @@ div button {
   font-weight: 700;
   font-size: 65px;
   line-height: 76px;
+  color: #FFFFFF;
+}
+.section1-right-side p{
+    color: #FFFFFF;
+}
+
+/* ------------------------Section2----------------------- */
+.section2-content-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section2-right-side p span {
+  color: rgb(11, 207, 11);
+  padding-right: 10px;
+}
+.section2-right-side h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
 }
