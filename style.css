@@ -1,8 +1,7 @@
 .section1-parent-div {
   width: 100%;
 }
-div button,
-section4-btn {
+.btn {
   background-color: #ffffff;
   color: #005fac;
   padding: 21px 26px;
@@ -67,6 +66,10 @@ section4-btn {
   color: #444343;
 }
 /* -------------------------------section3------------------------ */
+.section3-parent-div{
+    margin-left: 40px;
+    margin-right: 40px;
+}
 .section3-parent-div h1 {
   text-align: center;
   font-family: "Work Sans";
@@ -106,12 +109,37 @@ section4-btn {
 }
 /* --------------------------------------section4-------------------------------------- */
 .section4-content-div {
+    margin-top:130px ;
   display: flex;
   justify-content: center;
   background-image: url(images/watch.png);
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+  
 }
 .gradient-up-content {
-  position: absolute;
+   position: absolute; 
+   padding-right: 500px;
+
+}
+.section4-btn {
+    background-color: #ffffff;
+    color: #005fac;
+    padding: 21px 26px;
+    margin-bottom: 55px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Work Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+  }
+.gradient-up-content h3{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+margin-top:55px ;
 }
