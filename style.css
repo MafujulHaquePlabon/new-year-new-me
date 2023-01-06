@@ -1,3 +1,4 @@
+/* ------------------------section1-------------------------- */
 .section1-parent-div {
   width: 100%;
 }
@@ -5,7 +6,7 @@
   background-color: #ffffff;
   color: #005fac;
   padding: 21px 26px;
-  margin-top: 32px;
+  margin-top: 30px;
   border: none;
   border-radius: 5px;
   font-family: "Work Sans";
@@ -66,9 +67,87 @@
   color: #444343;
 }
 /* -------------------------------section3------------------------ */
+
+.center-align {
+  text-align: center;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-top: 130px;
+  margin-bottom: 60px;
+}
+.shadow-item p{
+    color: #444343;
+}
+.shadow-item h2{
+    color: #151414;
+}
+.shadow-item {
+  box-shadow: 5px 5px 40px rgb(247, 242, 242);
+  width: 25%;
+  padding: 20px;
+  border-radius:30px 30px;
+  border-top: 5px solid green;
+}
+.flexible-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 190px;
+  padding-left: 190px;
+}
+.shadow-item1-margin {
+  background-color: rgb(248, 125, 187);
+}
+.shadow-item2-margin {
+  background-color: rgb(230, 178, 186);
+}
+.shadow-item3-margin {
+  background-color: #4a94cf;
+}
+.shadow-item img {
+  width: 35%;
+}
+
+/* --------------------------------------section4-------------------------------------- */
+.section4-content-div {
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  background-image: url(images/watch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.gradient-up-content {
+  position: absolute;
+  padding-right: 500px;
+}
+.section4-btn {
+  background-color: #ffffff;
+  color: #005fac;
+  padding: 21px 36px;
+  margin-bottom: 55px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+.gradient-up-content h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: 55px;
+}
+/* ---------------------section5-------------------------------- */
 .section3-parent-div {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 .section3-parent-div h1 {
   text-align: center;
@@ -107,40 +186,6 @@
   text-align: center;
   color: #737272;
 }
-/* --------------------------------------section4-------------------------------------- */
-.section4-content-div {
-  margin-top: 130px;
-  display: flex;
-  justify-content: center;
-  background-image: url(images/watch.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-}
-.gradient-up-content {
-  position: absolute;
-  padding-right: 500px;
-}
-.section4-btn {
-  background-color: #ffffff;
-  color: #005fac;
-  padding: 21px 36px;
-  margin-bottom: 55px;
-  border: none;
-  border-radius: 5px;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-}
-.gradient-up-content h3 {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  color: #ffffff;
-  margin-top: 55px;
-}
 /* -----------------------------section6-------------------------- */
 .section6-parent-div {
   background: #151414;
@@ -151,7 +196,6 @@
 .section6-content-div {
   display: flex;
   justify-content: space-around;
-  align-items: center;
   padding-top: 100px;
 }
 .section6-content-div h2 {
@@ -189,6 +233,8 @@
   background: #151414;
   padding-right: 21px;
   border: 1px solid #ffffff;
+  color: #f3f3f3;
+  border-radius: 8px;
 }
 .section6-content-div button {
   font-family: "Inter";
