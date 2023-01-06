@@ -124,7 +124,7 @@
 .section4-btn {
   background-color: #ffffff;
   color: #005fac;
-  padding: 21px 26px;
+  padding: 21px 36px;
   margin-bottom: 55px;
   border: none;
   border-radius: 5px;
@@ -152,6 +152,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-top: 100px;
 }
 .section6-content-div h2 {
   font-family: "Work Sans";
@@ -160,10 +161,44 @@
   font-size: 45px;
   color: #f8f8f8;
 }
+.section6-content-div h4 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #ffffff;
+}
 .section6-content-div p {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: #ffffff;
+}
+.section6-content-div img {
+  padding-right: 20px;
+}
+.section6-content-div input {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 21px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background: #151414;
+  padding-right: 21px;
+  border: 1px solid #ffffff;
+}
+.section6-content-div button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 20px 36px;
+  background: #005fac;
+  border-radius: 8px;
+  margin-top: 17px;
+  border: none;
 }
