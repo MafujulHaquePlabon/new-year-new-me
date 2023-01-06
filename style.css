@@ -66,9 +66,9 @@
   color: #444343;
 }
 /* -------------------------------section3------------------------ */
-.section3-parent-div{
-    margin-left: 40px;
-    margin-right: 40px;
+.section3-parent-div {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 .section3-parent-div h1 {
   text-align: center;
@@ -109,37 +109,61 @@
 }
 /* --------------------------------------section4-------------------------------------- */
 .section4-content-div {
-    margin-top:130px ;
+  margin-top: 130px;
   display: flex;
   justify-content: center;
   background-image: url(images/watch.png);
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  
 }
 .gradient-up-content {
-   position: absolute; 
-   padding-right: 500px;
-
+  position: absolute;
+  padding-right: 500px;
 }
 .section4-btn {
-    background-color: #ffffff;
-    color: #005fac;
-    padding: 21px 26px;
-    margin-bottom: 55px;
-    border: none;
-    border-radius: 5px;
-    font-family: "Work Sans";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-  }
-.gradient-up-content h3{
-    font-family: 'Work Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-color: #FFFFFF;
-margin-top:55px ;
+  background-color: #ffffff;
+  color: #005fac;
+  padding: 21px 26px;
+  margin-bottom: 55px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+.gradient-up-content h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-top: 55px;
+}
+/* -----------------------------section6-------------------------- */
+.section6-parent-div {
+  background: #151414;
+  height: 580px;
+  width: 100%;
+  margin-top: 130px;
+}
+.section6-content-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section6-content-div h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+}
+.section6-content-div p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
 }
