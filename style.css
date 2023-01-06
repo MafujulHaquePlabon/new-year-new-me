@@ -1,0 +1,39 @@
+.section1-parent-div {
+  width: 100%;
+  margin: 0;
+}
+div button {
+  background-color: #ffffff;
+  color: #005fac;
+  padding: 21px 26px;
+  margin-top: 32px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+.section1-content-div img {
+  width: 100%;
+  position: relative;
+}
+.section1-content-div {
+  width: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section1-right-side {
+  position: absolute;
+  right: 230px;
+  text-align-last: right;
+}
+.section1-right-side h1 {
+  margin-bottom: 24px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+}
