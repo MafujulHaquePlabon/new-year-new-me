@@ -36,10 +36,10 @@ div button {
   font-weight: 700;
   font-size: 65px;
   line-height: 76px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.section1-right-side p{
-    color: #FFFFFF;
+.section1-right-side p {
+  color: #ffffff;
 }
 
 /* ------------------------Section2----------------------- */
@@ -58,4 +58,10 @@ div button {
   font-weight: 700;
   font-size: 40px;
   color: #151414;
+  margin-bottom: 24px;
 }
+.section2-right-side p {
+  margin-bottom: 16px;
+  color: #444343;
+}
+/* -------------------------------section3------------------------ */
